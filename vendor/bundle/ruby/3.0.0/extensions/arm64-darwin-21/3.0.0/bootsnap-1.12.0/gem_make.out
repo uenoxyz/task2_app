@@ -1,0 +1,15 @@
+current directory: /Users/ueno/Documents/Task3/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+/Users/ueno/.rbenv/versions/3.0.4/bin/ruby -I /Users/ueno/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20220531-33727-2qkp5e.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ueno/Documents/Task3/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/ueno/Documents/Task3/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/ueno/Documents/Task3/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220531-33727-vn8jdy/bootsnap
