@@ -1,4 +1,8 @@
 class ReservationsController < ApplicationController
+
+  before_action :set_current_room,{only:[:new,:create]}
+  before_action :authenticate_user
+
   def index
     @reservations = Reservation.all
   end
@@ -48,7 +52,7 @@ class ReservationsController < ApplicationController
   
   def show
      @reservation = Reservation.find_by(id: params[:id])
-     @room = @reservation.room
+     
   end
   
   def destroy
